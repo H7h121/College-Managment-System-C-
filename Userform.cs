@@ -34,7 +34,7 @@ namespace collegesystem
             nameTextbox3.Text = userGridView1.SelectedRows[0].Cells[1].Value.ToString();
             passTextbox2.Text = userGridView1.SelectedRows[0].Cells[2].Value.ToString();
         }
-        SqlConnection con = new SqlConnection("Server= LENOVO; Database= college;Integrated Security = SSPI; ");
+        SqlConnection con = new SqlConnection(" ");
 
         private void Userform_Load(object sender, EventArgs e)
         {
