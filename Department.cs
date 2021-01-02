@@ -17,7 +17,7 @@ namespace collegesystem
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection("Server= LENOVO; Database= college;Integrated Security = SSPI; ");
+        SqlConnection con = new SqlConnection("");
         private void populate()
         {
             con.Open();
