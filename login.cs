@@ -23,7 +23,7 @@ namespace collegesystem
         {
 
         }
-        SqlConnection con = new SqlConnection("Server= LENOVO; Database= college;Integrated Security = SSPI; ");
+        SqlConnection con = new SqlConnection(" ");
         private void button1_Click(object sender, EventArgs e)
         {
 
