@@ -67,7 +67,7 @@ namespace collegesystem
             d.Show();
             this.Hide();
         }
-        SqlConnection con = new SqlConnection("Server= LENOVO; Database= college;Integrated Security = SSPI; ");
+        SqlConnection con = new SqlConnection(" ");
         private void fillDepNmae()
         {
             con.Open();
